@@ -1,0 +1,161 @@
+html,
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: gray;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: seashell;
+  background-color: darkgray;
+}
+
+img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+/*   HEADER   */
+
+header {
+  height: 69px;
+}
+
+nav {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.left {
+  height: 50px;
+  margin: 0 10px;
+}
+
+.right {
+  height: 50px;
+}
+
+.right ul {
+  margin: 0;
+  height: 50px;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-right: 1em;
+  padding-left: 1em;
+}
+
+.right li a {
+  padding: 8px;
+  margin: 0 10px;
+}
+
+/* MAIN */
+
+.hero {
+  background-image: url(./assets/img-mission-background.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: contain;
+  max-width: 1200px;
+  height: 700px;
+  display: inline-flex;
+  justify-self: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-text {
+  width: 100%;
+  background-color: black;
+  padding: 0 1em;
+}
+
+/* FEATURED TEA SECTION */
+
+.featured {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.featured-items {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.featured-items li {
+  list-style: none;
+}
+
+.featured-items img {
+  height: 200px;
+  width: 300px;
+}
+
+.featured-items p {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* LOCATIONS SECTION */
+.locations {
+  background-image: url(./assets/img-locations-background.webp);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  min-height: 500px;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+
+.locations h2 {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 2em 0 15px 0;
+  margin: 1em 0 0 0;
+}
+
+.location-items {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: center;
+  text-align: center;
+  padding-left: 0;
+  margin: 0;
+}
+
+.location-items li {
+  background-color: black;
+  opacity: 0.9;
+  width: 300px;
+  min-height: 220px;
+  margin: 20px 40px;
+}
+
+/* FOOTER */
+
+.contact {
+  height: 200px;
+}
+
+.copyright {
+  text-align: left;
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: 16px;
+}
