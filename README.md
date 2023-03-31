@@ -24,15 +24,15 @@ Flex is a value for 'display' property.
   
   **display: flex;**
   
-  **justify-content:**  flex-start | flex-end | center | space-around | space-between ;    *(horizontal position)*
+  **justify-content:**  flex-start | flex-end | center | space-around | space-between ;  *(horizontal position)*
   
-  **justify-self:**  flex-start | flex-end | center | space-around | space-between ;        *(horizontal position, self)*
+  **justify-self:**  flex-start | flex-end | center | space-around | space-between ;     *(horizontal position, self)*
   
   **align-items:**  flex-start | flex-end | center | stretch ;                           *(vertical position)*
   
   **align-self:**  flex-start | flex-end | center | stretch ;                            *(vertical position, self)*
   
-  **align-content:**  flex-start | flex-end | center | space-between | space-around ;      *(vertical alignment of children's multiple lines)*
+  **align-content:**  flex-start | flex-end | center | space-between | space-around ;    *(vertical alignment of children's multiple lines)*
   
   **flex-wrap:**  nowrap (default) | wrap | reverse-wrap ;                              *(controls creation of new line if container is too small)*
   ```
