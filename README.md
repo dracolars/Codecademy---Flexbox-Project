@@ -20,6 +20,7 @@ Flex is a value for 'display' property.
   Most common uses for flex: organize divs (center them, space them out) instead of them taking width 100% (block by default).
   
   Important properties used with flex: 
+  ```
   
   **display: flex;**
   
@@ -34,15 +35,18 @@ Flex is a value for 'display' property.
   **align-content:**  flex-start | flex-end | center | space-between | space-around ;      *(vertical alignment of children's multiple lines)*
   
   **flex-wrap:**  nowrap (default) | wrap | reverse-wrap ;                              *(controls creation of new line if container is too small)*
+  ```
   
   
   
   Flexbox model gives the items (and can also give the parent) two axes: main and crossing.
   We can change what is the main axis (horizontal by default) by using flex-direction or flex-flow.
+  ```
   
   **flex-direction:**  row (default) | column
   
   **flex-flow:**  row wrap | column wrap | row nowrap | ETC.
+  ```
   
   
   
