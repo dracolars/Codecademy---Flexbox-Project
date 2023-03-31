@@ -22,6 +22,7 @@ Flex is a value for 'display' property.
   Important properties used with flex: 
   
   **display: flex;**
+  
   **justify-content: flex-start | flex-end | center | space-around | space-between ;**     *(horizontal position)*
   
   **justify-self: flex-start | flex-end | center | space-around | space-between ;**        *(horizontal position, self)*
@@ -32,7 +33,7 @@ Flex is a value for 'display' property.
   
   **align-content: flex-start | flex-end | center | space-between | space-around ;**      *(vertical alignment of children's multiple lines)*
   
-  **flex-wrap: nowrap (default) | wrap | reverse-wrap ; **                               *(controls creation of new line if container is too small)*
+  **flex-wrap: nowrap (default) | wrap | reverse-wrap ;**                               *(controls creation of new line if container is too small)*
   
   
   
@@ -41,7 +42,7 @@ Flex is a value for 'display' property.
   
   **flex-direction: row (default) | column**
   
-  **flex-flow: row wrap | column wrap | row nowrap ... **
+  **flex-flow: row wrap | column wrap | row nowrap | ETC.**
   
   
   
