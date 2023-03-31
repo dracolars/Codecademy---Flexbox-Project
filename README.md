@@ -1,9 +1,9 @@
-# Codecademy - Flexbox-Project
-#A Codecademy External Project - Flexbox * *(The Cozy Tea Website)* *
 
-#AAA Objective: Build a sample homepage for a client (The Cozy Tea) and master Flexbox layout model in CSS
+# Codecademy External Project - Flexbox * *(The Cozy Tea Website)* *
 
-CSS Flexbox Model Main concepts:
+### Objective: Build a sample homepage for a client (The Cozy Tea) and master Flexbox layout model in CSS
+
+> CSS Flexbox Model Main concepts:
 Flex is a value for 'display' property.
 
 .container {
