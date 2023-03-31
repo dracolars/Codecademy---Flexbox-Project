@@ -23,18 +23,26 @@ Flex is a value for 'display' property.
   
   display: flex;
   justify-content: flex-start | flex-end | center | space-around | space-between ;     (horizontal position)
+  
   justify-self: flex-start | flex-end | center | space-around | space-between ;        (horizontal position, self)
+  
   align-items: flex-start | flex-end | center | stretch ;                              (vertical position)
+  
   align-self: flex-start | flex-end | center | stretch ;                               (vertical position, self)
+  
   align-content: flex-start | flex-end | center | space-between | space-around ;       (vertical alignment of children's multiple lines)
+  
   flex-wrap: nowrap (default) | wrap | reverse-wrap ;                                  (controls creation of new line if container is too small)
+  
   
   
   Flexbox model gives the items (and can also give the parent) two axes: main and crossing.
   We can change what is the main axis (horizontal by default) by using flex-direction or flex-flow.
   
   flex-direction: row (default) | column
+  
   flex-flow: row wrap | column wrap | row nowrap ... 
+  
   
   
   
