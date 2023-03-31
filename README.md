@@ -1,5 +1,5 @@
 
-# Codecademy External Project - Flexbox * *(The Cozy Tea Website)* *
+# Codecademy Project - Flexbox *(The Cozy Tea Website)*
 
 ### Objective: Build a sample homepage for a client (The Cozy Tea) and master Flexbox layout model in CSS
 
