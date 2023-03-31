@@ -22,19 +22,19 @@ Flex is a value for 'display' property.
   Important properties used with flex: 
   ```
   
-  **display: flex;**
+  display: flex;
   
-  **justify-content:**  flex-start | flex-end | center | space-around | space-between ;  *(horizontal position)*
+  justify-content:  flex-start | flex-end | center | space-around | space-between ;  *(horizontal position)*
   
-  **justify-self:**  flex-start | flex-end | center | space-around | space-between ;     *(horizontal position, self)*
+  justify-self:  flex-start | flex-end | center | space-around | space-between ;     *(horizontal position, self)*
   
-  **align-items:**  flex-start | flex-end | center | stretch ;                           *(vertical position)*
+  align-items:  flex-start | flex-end | center | stretch ;                           *(vertical position)*
   
-  **align-self:**  flex-start | flex-end | center | stretch ;                            *(vertical position, self)*
+  align-self:  flex-start | flex-end | center | stretch ;                            *(vertical position, self)*
   
-  **align-content:**  flex-start | flex-end | center | space-between | space-around ;    *(vertical alignment of children's multiple lines)*
+  align-content:  flex-start | flex-end | center | space-between | space-around ;    *(vertical alignment of children's multiple lines)*
   
-  **flex-wrap:**  nowrap (default) | wrap | reverse-wrap ;                              *(controls creation of new line if container is too small)*
+  flex-wrap:  nowrap (default) | wrap | reverse-wrap ;                               *(controls creation of new line if container is too small)*
   ```
   
   
@@ -43,9 +43,9 @@ Flex is a value for 'display' property.
   We can change what is the main axis (horizontal by default) by using flex-direction or flex-flow.
   ```
   
-  **flex-direction:**  row (default) | column
+  flex-direction:  row (default) | column
   
-  **flex-flow:**  row wrap | column wrap | row nowrap | ETC.
+  flex-flow:  row wrap | column wrap | row nowrap | ETC.
   ```
   
   
